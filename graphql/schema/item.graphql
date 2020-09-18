@@ -1,0 +1,8 @@
+
+enum ItemType {
+    A
+    B
+}
+input ItemRequest {
+    types :[ItemType!]
+}
